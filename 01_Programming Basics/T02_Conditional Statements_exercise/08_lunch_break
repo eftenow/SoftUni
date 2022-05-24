@@ -1,0 +1,16 @@
+import math
+series = input()
+episode_duration = float(input())
+break_duration = float(input())
+
+lunch = 0.125 * break_duration
+rest = 0.25 * break_duration
+spare_time = lunch+rest
+
+time_for_watching = break_duration - spare_time
+diff = abs(time_for_watching-episode_duration)
+
+if time_for_watching >= episode_duration:
+    print(f"You have enough time to watch {series} and left with {math.ceil(diff)} minutes free time.")
+else:
+    print(f"You don't have enough time to watch {series}, you need {math.ceil(diff)} more minutes.")
