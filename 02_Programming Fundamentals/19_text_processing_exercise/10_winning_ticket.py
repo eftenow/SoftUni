@@ -9,6 +9,7 @@ for ticket in tickets:
     symbols_count_second = 0
     symbol_first = ""
     symbol_second = ""
+    
     if len(ticket) != 20:
         print("invalid ticket")
     else:
