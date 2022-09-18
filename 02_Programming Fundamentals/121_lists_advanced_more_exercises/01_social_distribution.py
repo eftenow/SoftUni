@@ -1,25 +1,22 @@
-x = [int(n) for n in input().split(', ')]
-min_wealth = int(input())
-bigger_than = [n for n in x if n > min_wealth]
-less_than = [n for n in x if n < min_wealth]
-bigger_diff = sum(bigger_than) - (len(bigger_than) * min_wealth)
-lesser_diff = (len(less_than) * min_wealth) - sum(less_than)
+opulation = [int(num) for num in input().split(", ")]
+wealth_level = int(input())
 
-if lesser_diff > bigger_diff:
+if sum(population) < len(population) * wealth_level:
     print('No equal distribution possible')
-    
 else:
-    for n, num in enumerate(x):
-        max_num = max(x)
-        index_max_num = x.index(max_num)
-        diff = max_num - (min_wealth - num)
-        if num < min_wealth and diff >= (min_wealth - num):
-            max_num -= (min_wealth - num)
-            num += (min_wealth - num)
-        elif num < min_wealth and diff < (min_wealth - num):
-            max_num -= diff
-            num += diff
-        x[n] = num
-        x[index_max_num] = max_num
-        
-    print(x)
+    poorest = min(population)
+
+    while poorest < wealth_level:
+        poorest_index = population.index(poorest)
+        richest = max(population)
+        richest_index = population.index(richest)
+
+        needed = wealth_level - poorest
+        can_take = richest - wealth_level
+        redistributed_wealth = min(needed, can_take)
+        population[poorest_index] += redistributed_wealth
+        population[richest_index] -= redistributed_wealth
+
+        poorest = min(population)
+
+    print(population)
