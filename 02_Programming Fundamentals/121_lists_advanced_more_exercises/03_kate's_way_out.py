@@ -35,13 +35,11 @@ def way_out(x, y, way_out_map):
  
         if x == maze_rows-1 or y == len(maze[0])-1 or y == 0:
             return f"Kate got out in {move+1} moves"
- 
         if not all_false(found_a_way):
             x, y = found_a_way_value[found_a_way.index(True)]
             char_replace(maze, x, y)
             way_out_map.remove(found_a_way_value[found_a_way.index(True)])
             move += 1
- 
         else:
             return "Kate cannot get out"
  
