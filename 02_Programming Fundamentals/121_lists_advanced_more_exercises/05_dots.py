@@ -18,7 +18,6 @@ elif len(points) == 1:
 
 elif len(points) > 1:
     pile = []
-    # create an empty "cluster" for each point
     for i in range(len(points)):
         pile.append([])
 
