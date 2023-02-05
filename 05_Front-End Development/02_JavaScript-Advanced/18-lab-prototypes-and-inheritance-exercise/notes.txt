@@ -1,0 +1,59 @@
+let cat = {
+	name: 'Bayo',
+	age: 5
+};
+Object.definePropertieS^^ - добавяне на повече от 1 пропъртита към обект
+Object.defineProperty(cat, 'color, { - добавяне на пропърти към обект
+	enumerable: false, - Пропъртито вече не влиза в итерации
+	writable: flase; - Стойността на пропъртито вече не може да бъде променяна
+	configurable: false; - Пропъртито не може да бъде изтрито
+}
+
+Object.seal(cat) - Забранява триенето на текущите пропъртитата и създаването на нови. Вече съществуващите пропъртита могат да бъдат променяни;
+Object.freeze(cat) - Забранява всякакви промени по пропъртитата на обекта;
+
+		Наследяване
+let animal = {
+	age: 1,
+	weight: 3,
+	canEat: true
+}
+
+
+let cat = {
+	canMeow = true;	
+	OR** __proto__ = animal, - legacy начин за сетване на прототип
+}
+
+Правилният начин за поставяне на прототип е:
+const myDog = Object.create(animal)
+cat.__proto__ = animal; - Присвояваме всички пропъртита на Animal към Cat
+
+Object.getPrototypeOf(cat) => Ще върне animal, защото animal e прототип на cat
+animal.isPrototypeOf(cat) => true
+
+Когато итерираме през обект с forOF цикъл, виждаме само пропъртитата на съответният обект, БЕЗ тези на прототипа му
+Когато итерираме през обект с forIN цикъл, виждаме всички пропъртита на обекта + тези на прототипа му
+obj.hasOwnPropety - проверява САМО пропъртитата на обекта, без тези на прототипа
+
+
+Начин за прикачане на прототипно пропърти към даден обект е:
+**Примерен клас
+function Person(firstName, lastName) {
+	this.firstName = firstName;
+	this.secondName = secondName;
+}
+**Към него закачаме функция fullName. За да можем да изпозлваме новата функция, която сме добаливи чрез прототип, трябва да извикваме 
+*функцията Person с 'new' => person = new Person(firstName, lastName) ..... person.fullName()
+
+Person.prototype.fullName = function() {
+	return this.firstName + ' ' this.lastName;
+}
+---
+
+class Teacher extends Person {
+	 constructor(name, email, subject){
+            super(name, email);
+            this.subject = subject;
+        }
+} - Класът Teacher взима всички пропъртита на Human и добавя свои
