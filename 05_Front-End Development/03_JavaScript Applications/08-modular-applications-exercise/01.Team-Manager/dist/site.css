@@ -1,0 +1,169 @@
+html{
+    scroll-behavior: smooth;
+}
+.hero {
+    font-size: 125%;
+    margin-top: 85px;
+}
+
+h2 {
+    padding-bottom: 32px;
+}
+
+.tm-hero-col {
+    margin-left: 314px;
+}
+
+.main-form label {
+    display: block;
+    margin: 16px auto;
+    position: relative;
+}
+
+.main-form input[type="text"],
+.main-form input[type="password"] {
+    padding: 4px 8px;
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #4f6457;
+}
+
+.main-form textarea {
+    display: block;
+    border: 1px solid #4f6457;
+    width: 100%;
+    resize: vertical;
+    height: 300px;
+    padding: 4px 8px;
+}
+
+.team-logo {
+    width: 150px;
+    height: 150px;
+    margin: 32px;
+    vertical-align: bottom;
+    object-fit: contain;
+}
+
+.tm-preview {
+    margin-left: 214px;
+    padding: 32px;
+    padding-left: 0;
+}
+
+.details {
+    color: #999999;
+}
+
+.tm-members li {
+    list-style: none;
+    margin: 8px 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.action.tm-control {
+    padding: 4px 8px;
+    margin: 0 4px;
+}
+
+.error {
+    text-align: center;
+    color: red
+}
+
+.browse-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+#searchBtn {
+    padding: 6px 18px;
+    border-radius: 4px;
+
+}
+
+#searchInput {
+    padding: 9px;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 35px;
+}
+
+.pagination li {
+    margin: 5px;
+    padding: 4px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.pagination li a {
+    padding: 10px 35px;
+}
+
+.pagination *:hover {
+    color: white;
+}
+
+main {
+    margin-top: 30px;
+}
+
+#login-message,
+#logout-message,
+#remove-message {
+    display: none;
+    justify-content: center;
+    padding: 13px 30px;
+    background-color: #e6c66e;
+    font-size: 1.2rem;
+    color: white;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+}
+
+;
+
+#team-home {
+    margin-top: 100px;
+}
+
+#back-to-top-btn {
+    position: fixed;
+    bottom: 5rem;
+    right: 27.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #83b395;
+    border-radius: 51%;
+    padding: 7px;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+};
+
+.layout{
+    width: 83%;
+};
+
+
+
+
+
+#arrow-up:hover{
+    color: red;
+}
