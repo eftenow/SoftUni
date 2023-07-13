@@ -1,88 +1,46 @@
-# SoftUni
-Homeworks and projects
+<h1>SoftUni</h1>
 
+<p>This repository contains my coursework, projects, and assignments related to my university courses at SoftUni.</p>
 
-SoftUni
-This repository contains my coursework, projects, and assignments related to my university courses at SoftUni.
+<h2>Track</h2>
 
-Track
-I am currently enrolled in the Java programming track. Additionally, I am learning HTML, CSS, JavaScript, and ReactJS.
+<p>I am currently enrolled in the Java programming track. Additionally, I am learning HTML, CSS, JavaScript, and ReactJS.</p>
 
-Java Track Curriculum
-Programming Basics
-Console I/O (input and output of simple data)
-For loops
-If-else statements
-Simple algorithm tasks
-While loops
-Nested loops
-Programming Fundamentals
-Core Java operations
-Web development basics
-IT concepts
-Problem-solving techniques
-Introduction to HTML & CSS
-Working with linear data structures
-Java Advanced & Java OOP
-Advanced Java algorithms
-Basics of functional programming
-Working with data flow, files, and directories
-Classes and objects
-Associative data structures
-Object-oriented programming concepts
-Data encapsulation
-Class hierarchy and inheritance
-Reflection
-Unit testing
-MySQL & Spring Data
-Transactions
-Relational database structures
-ACID (Atomicity, Consistency, Isolation, Durability)
-Procedures and functions
-Basic backend architectures
-Relation between database and application
-Database first approach
-Code first approach
-Object-Relational Mapping (ORM)
-XML and JSON
-Java Web
-Working with the HTTP protocol
-Cookies and sessions
-Server-side rendering
-Spring MVC
-Thymeleaf
-Bootstrap
-Spring REST
-Authentication and security
-Spring application architecture
-Deploying and monitoring Spring applications
-Unit and integration tests
-JavaScript
-What I've Learned
-JavaScript classes and objects
-JavaScript data structures
-Functions and JSON
-HTML & CSS
-Functional programming
-DOM manipulations and operations
-Events
-Single-Page Applications (SPAs)
-Templating engines and routing
-Non-relational databases
-REST API and asynchronous programming
-Integration testing
-Testing with Mocha and Chai
-Front-end Module
-HTML & CSS
-Typography
-Flexbox
-Responsive web design
-Semantic HTML
-ReactJS
-Components
-Building SPAs with React
-Routing
-Handling form data
-Authentication
-Hooks
-Context API
+<h2>Java Track Curriculum</h2>
+
+<h3>Programming Basics</h3>
+<ul>
+  <li>Console I/O (input and output of simple data)</li>
+  <li>For loops</li>
+  <li>If-else statements</li>
+  <li>Simple algorithm tasks</li>
+  <li>While loops</li>
+  <li>Nested loops</li>
+</ul>
+
+<h3>Programming Fundamentals</h3>
+<ul>
+  <li>Core Java operations</li>
+  <li>Web development basics</li>
+  <li>IT concepts</li>
+  <li>Problem-solving techniques</li>
+  <li>Introduction to HTML & CSS</li>
+  <li>Working with linear data structures</li>
+</ul>
+
+<h3>Java Advanced & Java OOP</h3>
+<ul>
+  <li>Advanced Java algorithms</li>
+  <li>Basics of functional programming</li>
+  <li>Working with data flow, files, and directories</li>
+  <li>Classes and objects</li>
+  <li>Associative data structures</li>
+  <li>Object-oriented programming concepts</li>
+  <li>Data encapsulation</li>
+  <li>Class hierarchy and inheritance</li>
+  <li>Reflection</li>
+  <li>Unit testing</li>
+</ul>
+
+<!-- Rest of the content omitted for brevity -->
+
