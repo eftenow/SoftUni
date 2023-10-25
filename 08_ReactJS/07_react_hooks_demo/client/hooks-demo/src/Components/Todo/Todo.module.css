@@ -1,0 +1,61 @@
+.toDoItem {
+    background-color: #eee;
+    padding: 6px;
+    border-radius: 4px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actionBtn {
+    right: 0;
+    background-color: rgb(66, 66, 90);
+    color: #fff;
+    padding: 3px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 2px 4px;
+}
+
+.addBtn {
+    background-color: rgb(56 196 80);
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px auto;
+    display: block;
+}
+
+.onAddForm {
+    position: absolute;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: #51508bea;
+    right: 39%;
+    top: 20%;
+    border-radius: 4px;
+
+}
+
+.submitBtn {
+    width: 50%;
+    justify-self: center;
+    margin: 13px auto 0;
+    border-radius: 6px;
+    background-color: white;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.cancelBtn {
+    width: 18px;
+    border: none;
+    color: #fff;
+    padding: 4px;
+    background: none;
+    cursor: pointer;
+    margin-left: auto;
+    margin-bottom: 6px;
+}
