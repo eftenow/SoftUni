@@ -1,0 +1,72 @@
+[
+    {
+        "id": 0,
+        "name": "Gan356 Air SM",
+        "description": "Gan356 Air SM is great",
+        "imageUrl": "https://ae01.alicdn.com/kf/HTB1CSddXRxRMKJjy0Fdq6yifFXa6/Gan-356-Air-SM-3x3-Black-Magic-cube-GAN-Air-SM-Magnetic-3x3x3-Speed-cube-gans.jpg",
+        "difficultyLevel": 3
+    },
+    {
+        "id": 1,
+        "name": "Eco-Dark",
+        "description": "Eco-Dark is dark",
+        "imageUrl": "https://thingsidesire.com/wp-content/uploads/2018/06/Eco-Dark-Rubik%E2%80%99s-Cube2.jpg",
+        "difficultyLevel": 6
+    },
+    {
+        "id": 2,
+        "name": "Pyraminx",
+        "description": "Pyraminx is new",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61izOzq%2BBAL._SY355_.jpg",
+        "difficultyLevel": 1
+    },
+    {
+        "id": 3,
+        "name": "Megaminx",
+        "description": "Megaminx is woooow",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61HpQqVQ37L._SY355_.jpg",
+        "difficultyLevel": 3
+    },
+    {
+        "id": 4,
+        "name": "Pyraminx",
+        "description": "Pyraminx is repeat",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61izOzq%2BBAL._SY355_.jpg",
+        "difficultyLevel": 1
+    },
+    {
+        "id": 5,
+        "name": "Standart Rubick Cube",
+        "description": "just standart rubick cube",
+        "imageUrl": "https://www.hpcwire.com/wp-content/uploads/2018/07/Rubiks_Cube_shutterstock_271810067.jpg",
+        "difficultyLevel": "3"
+    },
+    {
+        "id": 6,
+        "name": "Cube",
+        "description": "cUBE",
+        "imageUrl": "https://cdn0.woolworths.media/content/wowproductimages/medium/956982_6.jpg",
+        "difficultyLevel": "1"
+    },
+    {
+        "id": 7,
+        "name": "Cube",
+        "description": "Cubeeee",
+        "imageUrl": "https://cdn0.woolworths.media/content/wowproductimages/medium/956982_6.jpg",
+        "difficultyLevel": "1"
+    },
+    {
+        "id": 8,
+        "name": "zxczxc",
+        "description": "zxczxc",
+        "imageUrl": "https://thumbs.dreamstime.com/b/gold-bronze-metal-medieval-shield-isolated-46036771.jpg",
+        "difficultyLevel": "1"
+    },
+    {
+        "id": 9,
+        "name": "asdasd",
+        "description": "asda",
+        "imageUrl": "asd",
+        "difficultyLevel": "1"
+    }
+]
