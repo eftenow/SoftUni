@@ -1,0 +1,10 @@
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 6%;
+    background: lightgray;
+    border-radius: 16px;
+
+}
